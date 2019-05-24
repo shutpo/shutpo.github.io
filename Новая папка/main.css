@@ -1,0 +1,39 @@
+h2 { color: #565656; }
+
+.menu li {
+    color: #0404ba;
+}
+
+.main-menu h2 {
+    text-align: center;
+    font-size: 20pt;
+}
+
+.main-menu li {
+    display: inline-block;
+    background-color: lightgray;
+    padding: 4px;
+    line-height: 1.6;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.category-menu h2 {
+    font-size: 15pt;
+}
+
+.category-menu li {
+    line-height: 1.5;
+    font-size: 16pt;
+}
+
+.main-menu li.active {
+    font-size: 20pt;
+    color: black;
+}
+
+.category-menu li.active {
+    font-size: 17pt;
+    color: black;
+    font-weight: bold;
+}
