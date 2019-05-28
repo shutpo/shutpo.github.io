@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+.resize{
+	width:100%;
+	border: 0px solid red;
+	background-color: white;
+	
+}
+nav{
+	width:100%;
+	border: 0px solid blue;
+	background-color:#402720;
+	height:69px;
+	position:relative;
+}
+.logo{
+	width:10%;
+	height:30px;
+	background-image: url(../images/logo.png);
+	display:block;
+	background-repeat:no-repeat;
+	background-size:contain;
+	position:absolute;
+	left:11%;
+	top:23%;
+}
+.menu{
+	border: 0px solid red;
+    display:table;
+    width: 50%;
+	position:absolute;
+	right:11%;
+}
+.menu_item{
+  border-right:0px dotted green;
+  display: table-cell;
+  height: 69px;
+  font-family: 'Roboto', sans-serif;
+  text-align:center;
+  vertical-align: middle;
+  background-color: #402720;
+  padding:0px 10px;
+  color: white;
+  font-size:0.8em;
+  
+}
+.menu_item:hover{
+	background-color:#ff9933;
+	color:#402720;
+}
+.middle{
+	background:url(../images/fon.jpg);
+	border: 0px solid blue;
+	height:820px;
+	width:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+	
+}
+.footer{
+	background-color:white;
+	height:110px;
+	width:100%;
+	display:block;
+	position:relative;
+	border: 0px solid black;
+}
+.footer_header{
+	color:#333333;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size:1em;
+}
+.footer_text{
+	color:#86878b;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	font-size:1em;
+
+}
+.footer_item{
+	display:table-cell;
+	border: 0px solid green;
+	height:110px;
+	text-align:left;
+    vertical-align: middle;
+	padding:0px 10px;
+	
+	
+}
+
+.twitter{
+	background-image:url(../images/twitter.png);
+	height:54px;
+	border:0px solid blue;
+	background-size:cover;
+	width:54px;
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.5);
+	border-radius:10px;
+	margin:0px 10px;
+}
+.google{
+	background-image:url(../images/google.png);
+	height:54px;
+	border:0px solid blue;
+	background-size:cover;
+	width:54px;
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.5);
+	border-radius:10px;
+	margin:0px 10px;
+}
+.instagram{
+	background-image:url(../images/instagram.png);
+	height:54px;
+	border:0px solid blue;
+	background-size:cover;
+	width:54px;
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.5);
+	border-radius:10px;
+	margin:0px 10px;
+	
+	
+}
+.twitter:hover{
+	width:60px;
+	height:60px;
+	background-image:url(../images/twittercop.png);
+}
+.instagram:hover{
+	width:60px;
+	height:60px;
+margin:3px 13px;
+}
+.google:hover{
+	width:60px;
+	height:60px;
+margin:3px 13px;
+}
+.midtext{
+	position:absolute;
+	left:11%;
+	border:0px solid blue;
+	top:22%;
+	width:600px;
+}
+ .mid{
+	font-family:'Roboto';
+	font-size:2.3em;
+color:white;
+text-transform:uppercase;
+line-height:1.2;
+font-weight:400;
+}
+.mid2{
+	font-family:'Roboto';
+	font-size:1em;
+color:rgba(255,255,255,0.7);
+line-height:1.2;
+font-weight:300;
+margin-bottom:50px;
+	
+}
+.but1{
+	font-family:'Roboto';
+	font-size:1em;
+color:rgba(255,255,255,1);
+font-weight:700;
+background-color:transparent;
+border:1px solid white;
+padding:10px;
+width:150px;
+}
